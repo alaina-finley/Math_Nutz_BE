@@ -1,4 +1,8 @@
-hello/NameRepository.class
-hello/Application.class
-hello/Person.class
-hello/GreetingController.class
+server/Student.class
+server/mvcConfig.class
+server/Application.class
+server/TeacherController.class
+server/StudentController.class
+server/WebSecurityConfig.class
+server/StudentRepository.class
+server/SimpleAuthenticationSuccessHandler.class
