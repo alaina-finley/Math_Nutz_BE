@@ -9,7 +9,7 @@ import org.springframework.data.jpa.repository.Query;
 
 @Repository
 public interface ProblemRepository extends JpaRepository<Problem, Integer> {
-  @Query(value = "select p from problem p where p.id = :id", nativeQuery = true)
+  @Query(value = "select * from problem p where p.id = :id", nativeQuery = true)
   Problem findByProblemId(@Param("id") Integer id);
   // Problem findById(Integer id);
   @Query(value = "delete from problem p where p.id = :id", nativeQuery = true)

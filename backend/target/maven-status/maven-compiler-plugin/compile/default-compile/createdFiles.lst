@@ -1,4 +1,10 @@
+server/controllers/UserController.class
 server/controllers/ProblemController.class
 server/Ng2bootApplication.class
-server/repositories/ProblemRepository.class
+server/controllers/ProgressController.class
 server/models/Problem.class
+server/repositories/UserRepository.class
+server/repositories/ProblemRepository.class
+server/repositories/ProgressRepository.class
+server/models/Progress.class
+server/models/User.class
