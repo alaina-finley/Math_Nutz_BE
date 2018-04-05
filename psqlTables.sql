@@ -12,11 +12,26 @@ CREATE TABLE problem (
   difficulty int
 );
 
-INSERT INTO problem(first, second, operation, difficulty) values(3,6,0,0);
-INSERT INTO problem(first, second, operation, difficulty) values(1,0,0,0);
-INSERT INTO problem(first, second, operation, difficulty) values(3,6,1,0);
-INSERT INTO problem(first, second, operation, difficulty) values(12,12,0,1);
-INSERT INTO problem(first, second, operation, difficulty) values(100,100,2,2);
+INSERT INTO problem(first, second, operation, difficulty) values(3,6,0,5);
+INSERT INTO problem(first, second, operation, difficulty) values(1,0,0,5);
+INSERT INTO problem(first, second, operation, difficulty) values(3,6,1,5);
+INSERT INTO problem(first, second, operation, difficulty) values(110,1,2,50);
+INSERT INTO problem(first, second, operation, difficulty) values(100,100,2,500);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
+INSERT INTO problem(first, second, operation, difficulty) values(-1,-1,-1,-1);
 
 CREATE TABLE island_user(
   id serial primary key NOT NULL,
@@ -29,6 +44,24 @@ INSERT INTO island_user(username, password, role) values('jimmydean','sausage', 
 INSERT INTO island_user(username, password, role) values('wednesdayadams','family', 'student');
 INSERT INTO island_user(username, password, role) values('jackjack','incredible', 'student');
 INSERT INTO island_user(username, password, role) values('frizzle','magic', 'teacher');
+INSERT INTO island_user(username, password, role) values('demo','demo', 'demo');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
+INSERT INTO island_user(username, password, role) values('empty','empty', 'empty');
 
 Create TABLE progress(
   id serial primary key NOT NULL,
