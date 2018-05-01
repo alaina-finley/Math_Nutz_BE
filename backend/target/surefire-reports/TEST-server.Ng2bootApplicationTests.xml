@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="server.Ng2bootApplicationTests" time="0.044" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="server.Ng2bootApplicationTests" time="0.006" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="9.0.4+11"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-9.0.4.jdk/Contents/Home/lib"/>
     <property name="gopherProxySet" value="false"/>
-    <property name="maven.multiModuleProjectDirectory" value="/Users/ashgrev/Documents/CMPT322SoftwareEngineering/IslandHopper"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/ashgrev/Documents/CMPT322SoftwareEngineering/AlainaAshMergedFull_backup"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -16,7 +16,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/Users/ashgrev/Documents/CMPT322SoftwareEngineering/IslandHopper"/>
+    <property name="user.dir" value="/Users/ashgrev/Documents/CMPT322SoftwareEngineering/AlainaAshMergedFull_backup"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="9.0.4+11"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
@@ -59,5 +59,5 @@
     <property name="sun.cpu.endian" value="little"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="contextLoads" classname="server.Ng2bootApplicationTests" time="0.044"/>
+  <testcase name="contextLoads" classname="server.Ng2bootApplicationTests" time="0.006"/>
 </testsuite>

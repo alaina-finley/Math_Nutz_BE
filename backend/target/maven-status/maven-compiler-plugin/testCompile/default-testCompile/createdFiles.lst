@@ -1,1 +1,11 @@
+server/models/ProblemTest.class
+server/repositories/CoinsRepositoryTest.class
+server/repositories/ProblemRepositoryTest.class
+server/models/UserTest.class
+server/models/StoreTest.class
+server/repositories/StoreRepositoryTest.class
+server/repositories/ProgressRepositoryTest.class
+server/models/CoinsTest.class
+server/repositories/UserRepositoryTest.class
+server/models/ProgressTest.class
 server/Ng2bootApplicationTests.class
